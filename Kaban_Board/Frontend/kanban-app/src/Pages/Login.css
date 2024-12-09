@@ -1,0 +1,94 @@
+/* Container for the Login form */
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Header styling for Login */
+  .login-container h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input fields for Login */
+  .login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: background 0.3s ease;
+  }
+  
+  /* Focused input fields */
+  .login-container input:focus {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: #2575fc;
+  }
+  
+  /* Login button */
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-container button:hover {
+    background: #6a11cb;
+  }
+  
+  /* Error message for Login */
+  .login-container p {
+    color: #ff4d4d;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  /* Smooth transition on hover for form */
+  .login-container:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 768px) {
+    .login-container {
+      padding: 1.5rem;
+      width: 100%;
+      max-width: 90%;
+    }
+  
+    .login-container h2 {
+      font-size: 1.8rem;
+    }
+  
+    .login-container input {
+      font-size: 0.95rem;
+      padding: 10px;
+    }
+  
+    .login-container button {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  

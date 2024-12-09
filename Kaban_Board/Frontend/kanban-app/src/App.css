@@ -1,0 +1,47 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Wrapper for the whole app */
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  #root {
+    padding: 1rem;
+  }
+
+  .navbar {
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+}

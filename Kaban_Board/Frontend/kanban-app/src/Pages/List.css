@@ -1,0 +1,25 @@
+/* Board Column */
+.board-column {
+  width: 30%;
+  min-height: 300px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  backdrop-filter: blur(8px);
+  color: white;
+}
+
+.board-column h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .board-column {
+      width: 100%;
+      margin-bottom: 1rem;
+  }
+}
